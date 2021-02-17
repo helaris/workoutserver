@@ -1,5 +1,5 @@
 const puppeteer = require('puppeteer');
-const saveToJSON = require('./utils/scraperToJSON');
+const saveToJSON = require('./scraperToJSON');
 const { v4 } = require('uuid');
 
 (async () => {
@@ -104,7 +104,6 @@ const { v4 } = require('uuid');
       stepThreeDesc
         ?.replace(/(\r\n|\n|\r)/gm, "")
         .replace(/ +(?= )/g, "")
-        // .replace(/text/gm, '')
         .trim() ?? null;
     const stepThreeOther = await page.evaluate(() => {
       const elem = document.querySelector('p:nth-child(6) + h2');
@@ -120,7 +119,6 @@ const { v4 } = require('uuid');
       stepThreeDescOther
         ?.replace(/(\r\n|\n|\r)/gm, "")
         .replace(/ +(?= )/g, "")
-        // .replace(/text/gm, '')
         .trim() ?? null;
 
     const stepFour = await page.evaluate(() => {
@@ -148,35 +146,16 @@ const { v4 } = require('uuid');
       return elem?.textContent;
     })
 
-    // const formattedStepFive =
-    //   stepFive
-    //     ?.replace(/(\r\n|\n|\r)/gm, "")
-    //     .replace(/ +(?= )/g, "")
-    //     // .replace(/text/gm, '')
-    //     .trim() ?? null;
 
     const stepFiveDesc = await page.evaluate(() => {
       const elem = document.querySelector('p:nth-child(10)');
       return elem?.textContent;
     })
 
-    // const formattedStepFiveDesc =
-    //   stepFiveDesc
-    //     ?.replace(/(\r\n|\n|\r)/gm, "")
-    //     .replace(/ +(?= )/g, "")
-    //     // .replace(/text/gm, '')
-    //     .trim() ?? null;
-
     const stepFiveOther = await page.evaluate(() => {
       const elem = document.querySelector('p:nth-child(12) + h2');
       return elem?.textContent;
     })
-    // const formattedStepFiveOther =
-    //   stepFiveOther
-    //     ?.replace(/(\r\n|\n|\r)/gm, "")
-    //     .replace(/ +(?= )/g, "")
-    //     // .replace(/text/gm, '')
-    //     .trim() ?? null;
 
     const stepFiveDescOther = await page.evaluate(() => {
       const elem = document.querySelector('p:nth-child(12) + h2 + p');
@@ -209,8 +188,6 @@ const { v4 } = require('uuid');
         description: stepFourDescOther ?? stepFourDesc
       },
       {
-        // title: formattedStepFiveOther ?? formattedStepFive,
-        // description: formattedStepFiveDescOther ?? formattedStepFiveDesc,
         title: stepFiveOther ?? stepFive,
         description: stepFiveDescOther ?? stepFiveDesc,
       }
