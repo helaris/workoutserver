@@ -10,7 +10,7 @@ const saveToJSON = (fileName, data) => {
       console.log(err);
       return;
     }
-    console.log('✅ data scrapped ✅');
+    console.log('data scrapped ✅');
   });
 };
 
