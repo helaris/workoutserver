@@ -146,28 +146,56 @@ const { v4 } = require('uuid');
       return elem?.textContent;
     })
 
+    const formattedStepFive =
+      stepFive
+        ?.replace(/(\r\n|\n|\r)/gm, "")
+        .replace(/ +(?= )/g, "")
+        .trim() ?? null;
+
 
     const stepFiveDesc = await page.evaluate(() => {
       const elem = document.querySelector('p:nth-child(10)');
       return elem?.textContent;
     })
 
+    const formattedStepFiveDesc =
+      stepFiveDesc
+        ?.replace(/(\r\n|\n|\r)/gm, "")
+        .replace(/ +(?= )/g, "")
+        .trim() ?? null;
+
     const stepFiveOther = await page.evaluate(() => {
       const elem = document.querySelector('p:nth-child(12) + h2');
       return elem?.textContent;
     })
+
+    const formattedStepFiveOther =
+      stepFiveOther
+        ?.replace(/(\r\n|\n|\r)/gm, "")
+        .replace(/ +(?= )/g, "")
+        .trim() ?? null;
 
     const stepFiveDescOther = await page.evaluate(() => {
       const elem = document.querySelector('p:nth-child(12) + h2 + p');
       return elem?.textContent;
     })
 
-    // const formattedStepFiveDescOther =
-    //   stepFiveDescOther
-    //     ?.replace(/(\r\n|\n|\r)/gm, "")
-    //     .replace(/ +(?= )/g, "")
-    //     // .replace(/text/gm, '')
-    //     .trim() ?? null;
+    const formattedStepFiveDescOther =
+      stepFiveDescOther
+        ?.replace(/(\r\n|\n|\r)/gm, "")
+        .replace(/ +(?= )/g, "")
+        .trim() ?? null;
+
+    const exerciseTip = await page.evaluate(() => {
+      const elem = document.querySelector('#exercise_tip');
+      return elem?.textContent;
+    })
+
+    const formattedExerciseTip =
+      exerciseTip
+        ?.replace(/(\r\n|\n|\r)/gm, "")
+        .replace(/ +(?= )/g, "")
+        .trim() ?? null;
 
 
     const stepDescription = [
@@ -188,12 +216,13 @@ const { v4 } = require('uuid');
         description: stepFourDescOther ?? stepFourDesc
       },
       {
-        title: stepFiveOther ?? stepFive,
-        description: stepFiveDescOther ?? stepFiveDesc,
+        title: formattedStepFive ?? formattedStepFiveOther,
+        description: formattedStepFiveDesc ?? formattedStepFiveDescOther,
+      },
+      {
+        exerciseTip: formattedExerciseTip
       }
     ]
-
-    console.log(stepDescription)
 
     const bodyPart = await page.evaluate(() => {
       const elem = document.querySelector('.exercise-info__term--body-part > dd');
@@ -204,6 +233,18 @@ const { v4 } = require('uuid');
       const elem = document.querySelector('.exercise-info__term--body-part > dd');
       return elem?.textContent.split(',').map(el => el.trim());
     })
+
+    // I want category to look like:
+    // category: [
+    //   {
+    //     id: 10,
+    //     name: 'chest'
+    //   },
+    //   {
+    //     id: 2,
+    //     name: 'legs'
+    //   }
+    // ]
 
     const equipment = await page.evaluate(() => {
       const elem = document.querySelector('.exercise-info__term--equipment > dd');
@@ -217,8 +258,8 @@ const { v4 } = require('uuid');
     })
 
     exercises.push({
-      id: v4(),
       title: title,
+      id: v4(),
       description: description ?? stepDescription,
       bodyPart: bodyPart,
       category: category,
@@ -229,5 +270,5 @@ const { v4 } = require('uuid');
 
   await browser.close();
   await saveToJSON('test', exercises);
-  console.log(exercises)
+  // console.log(exercises)
 })();

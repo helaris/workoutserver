@@ -1,7 +1,7 @@
 [
   {
-    "id": "7a09aa85-1e58-435a-b678-185f21bfaa8a",
     "title": "Bent Knee Push-up",
+    "id": "39628ae0-380c-4e09-99b8-d5f766437391",
     "description": [
       {
         "title": "Step 1",
@@ -19,7 +19,10 @@
         "title": "Step 4",
         "description": "Upward Phase: Press upwards through your arms while maintaining a rigid torso and head aligned with your spine. Do not allow your low back to sag or your hips to hike upwards. Continue pressing until the arms are fully extended at the elbows."
       },
-      {}
+      { "title": null, "description": null },
+      {
+        "exerciseTip": "Push-ups place stress upon the wrist joints. To alleviate some of this stress you may opt to use dumbbells and grip the handles rather than place your hands on the floor. If your are pressing from an elevation such as a dumbbell, you do not need to lower your chest or chin to the floor, but rather lower yourself until your chest or chin are level with the dumbbell handles."
+      }
     ],
     "bodyPart": "Arms, Chest, Shoulders",
     "category": ["Arms", "Chest", "Shoulders"],
@@ -31,8 +34,8 @@
     ]
   },
   {
-    "id": "e2860a81-5f33-423b-abd6-64c397a06ea0",
     "title": "Bottom-up Press",
+    "id": "337cd299-96ab-4ecc-8040-f88349e9477f",
     "description": "Stand with the feet hip-width apart so that the right foot is slightly in front of the left and hold a kettlebell in the right hand in a ‘bottom-up’ position by holding the top of the handle so that the bottom of the kettlebell is facing up. Keep a strong grip to maintain balance of the kettlebell. Push the right foot into the ground to shift the weight of the body forward while pressing the right arm straight overhead. Pull the right elbow back down to the rib cage to lower the weight. ",
     "bodyPart": "Chest, Full Body/Integrated, Shoulders",
     "category": ["Chest", "Full Body/Integrated", "Shoulders"],
@@ -43,8 +46,8 @@
     ]
   },
   {
-    "id": "8b425c6d-989e-4284-84fe-3206dbbd73d4",
     "title": "Cat-Cow",
+    "id": "3250d017-af8c-489d-b8c6-b8d836fa9f48",
     "description": [
       {
         "title": "Step 1",
@@ -65,7 +68,8 @@
       {
         "title": "Step 5",
         "description": "Downward (Cow) Phase: Slowly relax and yield to the effects of gravity. Let your stomach fall towards the floor (increasing the arch in your low back) and allow your shoulder blades to fall together (move towards the spine). Hold this position for 10 - 15 seconds before returning to your starting position"
-      }
+      },
+      { "exerciseTip": null }
     ],
     "bodyPart": "Back, Chest",
     "category": ["Back", "Chest"],
@@ -77,8 +81,8 @@
     ]
   },
   {
-    "id": "f1be6a2f-d515-4494-b9e8-278d91beab04",
     "title": "Chest Press",
+    "id": "321f683d-c910-4799-8c3d-542167931007",
     "description": "Lie face up on a flat bench, and grip a barbell with the hands slightly wider than shoulder-width. Press the feet into the ground and the hips into the bench while lifting the bar off the rack. Slowly lower the bar to the chest by allowing the elbows to bend out to the side. Stop when the elbows are just below the bench, and press feet into the floor to press the weight straight up to return to the starting position.",
     "bodyPart": "Arms, Chest, Shoulders",
     "category": ["Arms", "Chest", "Shoulders"],
@@ -89,8 +93,8 @@
     ]
   },
   {
-    "id": "a62db650-5868-4ac4-aed2-9f49a5426cf5",
     "title": "Chest Press",
+    "id": "2cec5327-aef7-449c-808b-5154473efab8",
     "description": [
       {
         "title": "Step 1",
@@ -111,6 +115,9 @@
       {
         "title": "Step 5",
         "description": "At the end of the set, signal your spotter to assist you in taking the dumbbells and maintain a firm grip until the dumbbells are taken from your hands."
+      },
+      {
+        "exerciseTip": "Safety is very important in this exercise. A spotter should adopt a split-stance position or half-kneeling position with the hands positioned as close to the most distal (wrist) joint. Keep the hands near, but not touching the wrists unless needed."
       }
     ],
     "bodyPart": "Arms, Chest, Shoulders",
@@ -122,8 +129,8 @@
     ]
   },
   {
-    "id": "400eff65-6908-46fd-98de-760363139f1b",
     "title": "CKC Parascapular Exercises",
+    "id": "78c7832a-564b-4bb5-9d0d-f7a74e7f4e4f",
     "description": [
       {
         "title": "Step 1",
@@ -135,7 +142,8 @@
       },
       { "description": "Exercise Variation:" },
       {},
-      {}
+      { "title": null, "description": null },
+      { "exerciseTip": null }
     ],
     "bodyPart": "Chest, Shoulders",
     "category": ["Chest", "Shoulders"],
@@ -151,8 +159,8 @@
     ]
   },
   {
-    "id": "e1327bed-01a0-49c6-a134-dd2584cd0306",
     "title": "Close-grip Bench Press",
+    "id": "6f9efbc4-4b43-4e15-9e39-9806c9b0eff4",
     "description": "Lie face up on a barbell bench, then reach up and grip the bar with the hands directly in line with the shoulders and the elbows pointed towards the feet. Unrack the bar and bring it towards the chest by bending the elbows and keeping them close to the ribs. Push the feet into the floor, and press the hips into the bench as the bar is pushed away from the chest to return to the starting position.",
     "bodyPart": "Arms, Chest",
     "category": ["Arms", "Chest"],
@@ -163,8 +171,8 @@
     ]
   },
   {
-    "id": "df96d79b-a9ec-4b2e-a602-9f328f8438d2",
     "title": "Halo",
+    "id": "96cca510-98e6-4593-a951-2205474f8381",
     "description": "Stand with the feet approximately shoulder-width apart and hold a kettlebell by the horns directly in front of the chest. Keep the back straight while moving the kettlebell from in front of the chest to over the right shoulder, reaching across the body with the left arm. Continue moving the kettlebell around and behind the head to bring it back to the chest by passing it over the left shoulder. Continue for the desired number of repetitions before switching directions.",
     "bodyPart": "Back, Butt/Hips, Chest, Full Body/Integrated, Legs - Thighs, Shoulders",
     "category": [
@@ -183,8 +191,8 @@
     ]
   },
   {
-    "id": "babf499a-67b9-4301-98bc-d977eed5985f",
     "title": "Inchworms",
+    "id": "d3fa4133-7287-4677-a7fe-b3a17301ad01",
     "description": [
       {
         "title": "Step 1",
@@ -203,8 +211,11 @@
         "description": "Perform one full push-up, lowering your chest and hips simultaneously to the floor while maintaining a rigid torso and head aligned with your spine.  Do not allow your low back to sag or your hips to hike upwards during this downward phase.  Continue to lower yourself until your chest or chin touch the floor. Allow your elbows to flare outwards during the lowering phase.   "
       },
       {
-        "title": "Step 7",
-        "description": "Exercise Variation:  You can progress this exercise by adding multiple push-ups in the lowered position."
+        "title": "Step 5",
+        "description": "Press upwards through your arms while maintaining a rigid torso and head aligned with your spine.  Do not allow your low back to sag or your hips to hike upwards. Continue pressing until the arms fully extend at the elbows.  Slowly begin walking your feet forward towards your hands, taking 6-12” steps without moving your hands.  Maintain a flat spine throughout and continue walking until your feet are close to your hands."
+      },
+      {
+        "exerciseTip": "To maximize the benefits of this exercise and reduce the potential for injury, it is important to monitor the position of your spine throughout the exercise.  Focus on keeping your spine flat and avoid any rounding of your low back.  Smaller steps help maintain correct body position.  Reaching too far forward with your arms will put unnecessary stress on the shoulders."
       }
     ],
     "bodyPart": "Abs, Arms, Back, Chest, Full Body/Integrated, Shoulders",
@@ -226,8 +237,8 @@
     ]
   },
   {
-    "id": "cb8ed7f0-ecac-40a1-ba0a-5d526057e90b",
     "title": "Incline Chest Press",
+    "id": "eb438e99-97b0-451f-876d-b35bf29438dd",
     "description": [
       {
         "title": "Step 1",
@@ -248,6 +259,9 @@
       {
         "title": "Step 5",
         "description": "At the end of the set, signal your spotter to assist you in taking the dumbbells and maintain a firm grip until the dumbbells are taken from your hands."
+      },
+      {
+        "exerciseTip": "Safety is very important in this exercise. A spotter should adopt a split-stance position with the hands positioned as close to the most distal (wrist) joint. Keep the hands near, but not touching the wrists unless needed."
       }
     ],
     "bodyPart": "Chest, Shoulders",
@@ -260,8 +274,8 @@
     ]
   },
   {
-    "id": "cf227284-be6f-44af-a451-616564311bd2",
     "title": "Lying Chest Fly",
+    "id": "767ade23-e9f9-4717-9b69-70b1fb3f8b15",
     "description": [
       {
         "title": "Step 1",
@@ -279,7 +293,10 @@
         "title": "Step 4",
         "description": "Upward Phase: Exhale and slowly raise the dumbbells upward in a wide arc back to your starting position, keeping the elbows slightly flexed, wrists neutral and making contact with the head, shoulders, butt and feet with the bench and floor/riser."
       },
-      {}
+      { "title": null, "description": null },
+      {
+        "exerciseTip": "Safety is very important in this exercise. A spotter should adopt a split-stance position or half-kneeling position with the hands positioned as close to the most distal (wrist) joint. Keep the hands near, but not touching the wrists unless needed."
+      }
     ],
     "bodyPart": "Chest, Shoulders",
     "category": ["Chest", "Shoulders"],
@@ -291,8 +308,8 @@
     ]
   },
   {
-    "id": "47372415-8b19-49cc-a4fb-1e6846ac96e8",
     "title": "Lying Pullovers",
+    "id": "ed4c1392-56ef-47a1-b993-6c85c5de4b39",
     "description": "Lie face up on a bench with the feet resting comfortably on the floor, and straighten the arms above the chest while holding one dumbbell in each hand with the palms facing each other. Slowly stretch the arms up overhead while keeping the elbows straight. Once the arms are overhead slowly pull the weights back up to the original starting position. Repeat for the desired number of repetitions.",
     "bodyPart": "Chest",
     "category": ["Chest"],

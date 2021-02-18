@@ -1,6 +1,7 @@
 const fs = require('fs');
 const prettier = require("prettier");
 
+
 const saveToJSON = (fileName, data) => {
   fs.writeFile(`./db/${fileName}.json`, prettier.format(JSON.stringify(data), {
     parser: "json",
