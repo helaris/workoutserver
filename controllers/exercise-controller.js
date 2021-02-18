@@ -1,7 +1,8 @@
 const exercises = require('../db/exercises.json');
 
 const getAllExercises = async (req, res) => {
-  res.status(200).send(exercises)
+  const sortedExercises = exercises.sort((a, b) => a.title.localeCompare(b.title));
+  res.status(200).send(sortedExercises)
 }
 
 const getExerciseById = async (req, res) => {

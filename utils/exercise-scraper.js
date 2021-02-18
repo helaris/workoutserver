@@ -23,8 +23,6 @@ const { v4 } = require('uuid');
   for (let url of urls) {
     await page.goto(url);
 
-
-    // await page.goto(url);
     await page.waitForSelector(
       "section.exercise-card-grid.exercise-card-grid--3col a.exercise-card"
     );
@@ -66,34 +64,77 @@ const { v4 } = require('uuid');
         return elem?.textContent;
       })
 
+      const formattedStepOne =
+        stepOne
+          ?.replace(/(\r\n|\n|\r)/gm, "")
+          .replace(/ +(?= )/g, "")
+          .trim() ?? null;
+
       const stepOneDesc = await page.evaluate(() => {
         const elem = document.querySelector('.exercise-post__step-content > p:nth-child(2)');
         return elem?.textContent;
       })
+
+      const formattedStepOneDesc =
+        stepOneDesc
+          ?.replace(/(\r\n|\n|\r)/gm, "")
+          .replace(/ +(?= )/g, "")
+          .trim() ?? null;
 
       const stepTwo = await page.evaluate(() => {
         const elem = document.querySelector('h2:nth-child(3)');
         return elem?.textContent;
       })
 
+      const formattedStepTwo =
+        stepTwo
+          ?.replace(/(\r\n|\n|\r)/gm, "")
+          .replace(/ +(?= )/g, "")
+          .trim() ?? null;
+
       const stepTwoDesc = await page.evaluate(() => {
         const elem = document.querySelector('p:nth-child(4)');
         return elem?.textContent;
       })
+
+      const formattedStepTwoDesc =
+        stepTwoDesc
+          ?.replace(/(\r\n|\n|\r)/gm, "")
+          .replace(/ +(?= )/g, "")
+          .trim() ?? null;
+
       const stepTwoOther = await page.evaluate(() => {
         const elem = document.querySelector('h2:nth-child(4)');
         return elem?.textContent;
       })
+
+      const formattedStepTwoOther =
+        stepTwoOther
+          ?.replace(/(\r\n|\n|\r)/gm, "")
+          .replace(/ +(?= )/g, "")
+          .trim() ?? null;
 
       const stepTwoDescOther = await page.evaluate(() => {
         const elem = document.querySelector('p:nth-child(5)');
         return elem?.textContent;
       })
 
+      const formattedStepTwoDescOther =
+        stepTwoDescOther
+          ?.replace(/(\r\n|\n|\r)/gm, "")
+          .replace(/ +(?= )/g, "")
+          .trim() ?? null;
+
       const stepThree = await page.evaluate(() => {
         const elem = document.querySelector('h2:nth-child(5)');
         return elem?.textContent;
       })
+
+      const formattedStepThree =
+        stepThree
+          ?.replace(/(\r\n|\n|\r)/gm, "")
+          .replace(/ +(?= )/g, "")
+          .trim() ?? null;
 
       const stepThreeDesc = await page.evaluate(() => {
         const elem = document.querySelector('p:nth-child(6)');
@@ -105,10 +146,17 @@ const { v4 } = require('uuid');
           ?.replace(/(\r\n|\n|\r)/gm, "")
           .replace(/ +(?= )/g, "")
           .trim() ?? null;
+
       const stepThreeOther = await page.evaluate(() => {
         const elem = document.querySelector('p:nth-child(6) + h2');
         return elem?.textContent;
       })
+
+      const formattedStepThreeOther =
+        stepThreeOther
+          ?.replace(/(\r\n|\n|\r)/gm, "")
+          .replace(/ +(?= )/g, "")
+          .trim() ?? null;
 
       const stepThreeDescOther = await page.evaluate(() => {
         const elem = document.querySelector('p:nth-child(8)');
@@ -126,20 +174,44 @@ const { v4 } = require('uuid');
         return elem?.textContent;
       })
 
+      const formattedStepFour =
+        stepFour
+          ?.replace(/(\r\n|\n|\r)/gm, "")
+          .replace(/ +(?= )/g, "")
+          .trim() ?? null;
+
       const stepFourDesc = await page.evaluate(() => {
         const elem = document.querySelector('h2:nth-child(7) + p');
         return elem?.textContent;
       })
+
+      const formattedStepFourDesc =
+        stepFourDesc
+          ?.replace(/(\r\n|\n|\r)/gm, "")
+          .replace(/ +(?= )/g, "")
+          .trim() ?? null;
 
       const stepFourOther = await page.evaluate(() => {
         const elem = document.querySelector('p:nth-child(9) + h2');
         return elem?.textContent;
       })
 
+      const formattedStepFourOther =
+        stepFourOther
+          ?.replace(/(\r\n|\n|\r)/gm, "")
+          .replace(/ +(?= )/g, "")
+          .trim() ?? null;
+
       const stepFourDescOther = await page.evaluate(() => {
         const elem = document.querySelector('p:nth-child(9) + h2 + p');
         return elem?.textContent;
       })
+
+      const formattedStepFourDescOther =
+        stepFourDescOther
+          ?.replace(/(\r\n|\n|\r)/gm, "")
+          .replace(/ +(?= )/g, "")
+          .trim() ?? null;
 
       const stepFive = await page.evaluate(() => {
         const elem = document.querySelector('h2:nth-child(9)');
@@ -200,20 +272,20 @@ const { v4 } = require('uuid');
 
       const stepDescription = [
         {
-          title: stepOne,
-          description: stepOneDesc
+          title: formattedStepOne,
+          description: formattedStepOneDesc
         },
         {
-          title: stepTwo ?? stepTwoOther,
-          description: stepTwoDesc ?? stepTwoDescOther,
+          title: formattedStepTwo ?? formattedStepTwoOther,
+          description: formattedStepTwoDesc ?? formattedStepTwoDescOther,
         },
         {
-          title: stepThree ?? stepThreeOther,
+          title: formattedStepThree ?? formattedStepThreeOther,
           description: formattedStepThreeDesc === null || formattedStepThreeDesc === '' ? formattedStepThreeDescOther : formattedStepThreeDesc
         },
         {
-          title: stepFourOther ?? stepFour,
-          description: stepFourDescOther ?? stepFourDesc
+          title: formattedStepFourOther ?? formattedStepFour,
+          description: formattedStepFourDescOther ?? formattedStepFourDesc
         },
         {
           title: formattedStepFive ?? formattedStepFiveOther,
@@ -272,6 +344,6 @@ const { v4 } = require('uuid');
   }
 
   await browser.close();
-  await saveToJSON('test', exercises);
+  await saveToJSON('exercises', exercises);
   console.log(exercises)
 })();
