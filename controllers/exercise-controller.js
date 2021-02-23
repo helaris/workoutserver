@@ -37,19 +37,18 @@ const getExerciseByCategory = async (req, res) => {
 
 
 // POST EXERCISES TO MONGODB ATLAS
-const addExercises = async (req, res) => {
-  try {
-    Exercises.insertMany(exercises)
-    res.status(200).send({ message: 'Posted to the database successfully' });
-  } catch (err) {
-    console.error(err);
-  }
-}
+// const addExercises = async (req, res) => {
+//   try {
+//     Exercises.insertMany(exercises)
+//     res.status(200).send({ message: 'Posted to the database successfully' });
+//   } catch (err) {
+//     console.error(err);
+//   }
+// }
 
 
 module.exports = {
   getAllExercises,
   getExerciseById,
   getExerciseByCategory,
-  addExercises
 }
