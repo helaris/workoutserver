@@ -313,20 +313,8 @@ const { v4 } = require('uuid');
 
         const category = await page.evaluate(() => {
           const elem = document.querySelector('.exercise-info__term--body-part > dd');
-          return elem?.textContent.split(',').map(el => el.trim().toLowerCase());
+          return elem?.textContent.split(',').map(el => el.trim().toLowerCase().replace(/[^\w+].*$/, ''));
         })
-
-        // I want category to look like:
-        // category: [
-        //   {
-        //     id: 10,
-        //     name: 'chest'
-        //   },
-        //   {
-        //     id: 2,
-        //     name: 'legs'
-        //   }
-        // ]
 
         const equipment = await page.evaluate(() => {
           const elem = document.querySelector('.exercise-info__term--equipment > dd');
