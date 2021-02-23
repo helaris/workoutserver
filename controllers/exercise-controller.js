@@ -1,21 +1,38 @@
-const mongoose = require('mongoose');
-const fs = require('fs');
 const Exercises = require('../models/exercises');
-const exercises = require('../db/exercises.json');
-// const exercises = JSON.parse(fs.readFileSync('/Users/helari/Desktop/scraper/db/exercises.json', 'utf-8'))
-
-
+// const exercises = require('../db/exercises.json');
 
 
 const getAllExercises = async (req, res) => {
-  const sortedExercises = exercises.sort((a, b) => a.title.localeCompare(b.title));
-  res.status(200).send(sortedExercises)
+  Exercises.find((err, exercises) => {
+    if (err) return console.error(err);
+    const sortedExercises = exercises.sort((a, b) => a.title.localeCompare(b.title));
+    res.json(sortedExercises);
+  })
 }
 
 const getExerciseById = async (req, res) => {
   const { id } = req.params;
-  const exercise = exercises.find(e => id === e.id);
-  res.status(200).send(exercise);
+  try {
+    const exercise = await Exercises.findOne({ _id: `${id}` });
+    res.status(200).send(exercise);
+  } catch (err) {
+    console.error(err);
+    res.status(404).send(err.message);
+  }
+}
+
+const getExerciseByCategory = async (req, res) => {
+  const { category } = req.params;
+
+  try {
+    const categories = await Exercises.find({ category: `${category}` })
+    const sortedCategories = categories.sort((a, b) => a.title.localeCompare(b.title));
+
+    res.status(200).send(sortedCategories);
+  } catch (err) {
+    console.error(err);
+    res.status(404).send(err.message);
+  }
 }
 
 
@@ -33,4 +50,5 @@ const getExerciseById = async (req, res) => {
 module.exports = {
   getAllExercises,
   getExerciseById,
+  getExerciseByCategory,
 }
