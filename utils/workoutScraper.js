@@ -10,7 +10,7 @@ const saveToJSON = require('./scraperToJSON');
   let workout = [];
 
   await page.goto(
-    'https://www.muscleandstrength.com/workouts/max-fat-burning-workouts'
+    'https://www.muscleandstrength.com/workouts/3-day-whole-body-toning-workout.html'
   );
 
   await page.waitForSelector('div.content');
@@ -56,7 +56,39 @@ const saveToJSON = require('./scraperToJSON');
     const elem = document.querySelector('.field-name-field-experience-level .field-item');
     return elem?.textContent;
   })
+  const programDuration = await page.evaluate(() => {
+    const elem = document.querySelector('.data-row:nth-child(4) > label');
+    return elem?.textContent;
+  })
+  const programDurationDesc = await page.evaluate(() => {
+    const elem = document.querySelector('.data-row:nth-child(4)');
+    return elem?.textContent.match(/\d.*/).toString().trim();
+  })
+  const daysPerWeek = await page.evaluate(() => {
+    const elem = document.querySelector('.data-row:nth-child(5) > label');
+    return elem?.textContent;
+  })
+  const daysPerWeekDesc = await page.evaluate(() => {
+    const elem = document.querySelector('.field-name-field-days-per-week .field-item');
+    return elem?.textContent;
+  })
+  const timePerWorkout = await page.evaluate(() => {
+    const elem = document.querySelector('.data-row:nth-child(6) > label');
+    return elem?.textContent;
+  })
+  const timePerWorkoutDesc = await page.evaluate(() => {
+    const elem = document.querySelector('.data-row:nth-child(6)');
+    return elem?.textContent.match(/\d.*/).toString().trim();
+  })
 
+  const equipmentRequired = await page.evaluate(() => {
+    const elem = document.querySelector('.data-row:nth-child(7) > label');
+    return elem?.textContent;
+  })
+  const equipmentRequiredDesc = await page.evaluate(() => {
+    const elem = document.querySelector('.data-row:nth-child(7) > .field-type-list-text');
+    return elem?.textContent;
+  })
   const workoutSummary = [
     {
       title: mainGoal,
@@ -69,6 +101,22 @@ const saveToJSON = require('./scraperToJSON');
     {
       title: trainingLevel,
       description: trainingLevelDesc
+    },
+    {
+      title: programDuration,
+      description: programDurationDesc
+    },
+    {
+      title: daysPerWeek,
+      description: daysPerWeekDesc
+    },
+    {
+      title: timePerWorkout,
+      description: timePerWorkoutDesc
+    },
+    {
+      title: equipmentRequired,
+      description: equipmentRequiredDesc
     }
   ]
 

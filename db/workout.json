@@ -1,12 +1,19 @@
 [
   {
-    "title": "3 Fat Blasting Workouts for Maximum Fat Loss",
-    "shortDescription": "Rethink your cardio-only fat loss mindset with these three fat burning workouts. Send your metabolism into overdrive and become a fat-destroying machine.",
-    "imageSrc": "https://cdn.muscleandstrength.com/sites/default/files/field/feature-wide-image/workout/3_fat_blasting_workouts_for_maximum_fat_loss_-_1000x500.jpg",
+    "title": "3 Day Full Body Toning Workout for Women",
+    "shortDescription": "This full body toning workout hits all the major muscle groups in just 30 minutes, and is perfect for people who want to strengthen their muscles! ",
+    "imageSrc": "https://cdn.muscleandstrength.com/sites/default/files/field/feature-wide-image/workout/3day1000.jpg",
     "workoutSummary": [
-      { "title": "Main Goal", "description": "Lose Fat" },
+      { "title": "Main Goal", "description": "Build Muscle" },
       { "title": "Workout Type", "description": "Full Body" },
-      { "title": "Training Level", "description": "Beginner" }
+      { "title": "Training Level", "description": "Intermediate" },
+      { "title": "Program Duration", "description": "4 weeks" },
+      { "title": "Days Per Week", "description": "3" },
+      { "title": "Time Per Workout", "description": "30 minutes" },
+      {
+        "title": "Equipment Required",
+        "description": "Barbell, Bodyweight, Cables, Dumbbells, Machines"
+      }
     ]
   }
 ]
