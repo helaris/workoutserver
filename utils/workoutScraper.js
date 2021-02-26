@@ -9,21 +9,27 @@ const saveToJSON = require('./scraperToJSON');
   await page.setDefaultNavigationTimeout(0);
 
   let workout = [];
-  const url = 'https://www.muscleandstrength.com/workouts/bodyweight';
+  // const url = 'https://www.muscleandstrength.com/workouts/bodyweight';
   // const url = 'https://www.muscleandstrength.com/workouts/3-day-full-body-dumbbell-workout';
   // const url = 'https://www.muscleandstrength.com/workouts/3-day-whole-body-toning-workout.html';
-  await page.goto(url);
+  // await page.goto(url);
 
 
-
+  const urls = [
+    'https://www.muscleandstrength.com/workouts/3-day-full-body-dumbbell-workout',
+    'https://www.muscleandstrength.com/workouts/3-day-whole-body-toning-workout.html',
+    'https://www.muscleandstrength.com/workouts/3-day-full-body-kettlebell-workout',
+    'https://www.muscleandstrength.com/workouts/3-day-at-home-womens-workout',
+    'https://www.muscleandstrength.com/workouts/full-body-bodyweight-workout.html'
+  ]
   // await page.waitForSelector('div.content');
-  await page.waitForSelector('div.item');
+  // await page.waitForSelector('div.item');
 
-  let urls = await page.evaluate(() => {
-    return [...document.querySelectorAll("div.view-content a")].map(
-      (node) => node.href
-    );
-  });
+  // let urls = await page.evaluate(() => {
+  //   return [...document.querySelectorAll("div.view-content a")].map(
+  //     (node) => node.href
+  //   );
+  // });
 
   for (let url of urls) {
 

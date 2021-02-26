@@ -1,243 +1,193 @@
 [
   {
-    "title": "Body Blaster: Full Body Fat Loss Workout (No Equipment Necessary)",
-    "shortDescription": "There's a faster way to fat loss than the treadmill. These fat burning workouts are designed to help you start making progress with just your own bodyweight.",
-    "imageSrc": "https://cdn.muscleandstrength.com/sites/default/files/field/feature-wide-image/workout/bodyblaster1000.jpg",
+    "title": "Dumbbell Only Workout: 3 Day Full Body Dumbbell Workout",
+    "shortDescription": "This workout program only requires dumbbells, has just the right amount of volume to promote muscle growth, and is perfect to do at home or on the go.",
+    "imageSrc": "https://cdn.muscleandstrength.com/sites/default/files/field/feature-image/workout/dumbbell-only-feature_0.jpg",
     "workoutSummary": [
-      { "title": "Main Goal", "description": "Lose Fat" },
+      { "title": "Main Goal", "description": "Build Muscle" },
       { "title": "Workout Type", "description": "Full Body" },
       { "title": "Training Level", "description": "Beginner" },
-      { "title": "Program Duration", "description": "6 weeks" },
+      { "title": "Program Duration", "description": "8 weeks" },
       { "title": "Days Per Week", "description": "3" },
-      { "title": "Time Per Workout", "description": "20-35 minutes" },
-      { "title": "Equipment Required", "description": "Bodyweight" }
+      { "title": "Time Per Workout", "description": "25-30 minutes" },
+      { "title": "Equipment Required", "description": "Dumbbells" }
     ],
-    "workoutDescription": "When most people think of losing weight, the first thoughts that come to mind involve going to a gym and spending countless minutes on a cardio machine and/or lifting a lot of weights. Believe it or not, there are other ways that you can burn calories, lose weight and get stronger.As a matter of fact, you already have the two minimum requirements to do just that. You have your body and you have space. Anyone can find room outside to move and exercise. Fortunately, this workout program only needs you, your space, and six weeks.Recommended: Need help losing fat? Take our Free Fat Loss Course",
-    "workoutOne": [
-      { "sets": "15 Seconds", "reps": "*" },
-      { "sets": "15", "reps": "*" },
-      { "exercise": "Squat Jumps", "sets": "15", "reps": "*" },
-      { "exercise": "Walking Lunges", "sets": "8 Per Leg", "reps": "*" },
-      { "exercise": "Frog Sit Up", "sets": "15", "reps": "*" },
-      { "exercise": "Pushups", "sets": "15", "reps": "*" },
-      { "exercise": "Mountain Climbers", "sets": "15 Per Leg", "reps": "*" }
+    "workoutDescription": "The following workout is designed for those who only have access to a set of dumbbells.It’s perfect for those who work out at home, travel and are on the road a lot, or beginners who are new to weight lifting.It can be performed as a complete workout program for up to 8 weeks. At that point you may want to consider increasing the volume of the workouts or change up your routine to include more of a variety of equipment. This program calls for you to work out 3 times a week. Since these workouts are full body workouts, it is best to have a rest day in between your work out days. Be sure to track your rest periods during your workouts. The rest time in between sets for this program should be between 30-60 seconds.",
+    "dayOne": [
+      { "exercise": "Dumbbell Squat", "sets": "3", "reps": "10" },
+      {
+        "exercise": "Dumbbell Stiff Legged Deadlift",
+        "sets": "3",
+        "reps": "10"
+      },
+      { "exercise": "Bent Over Dumbbell Row", "sets": "3", "reps": "10" },
+      { "exercise": "Dumbbell Bench Press", "sets": "3", "reps": "10" },
+      { "exercise": "Lateral Raises", "sets": "2", "reps": "8" },
+      { "exercise": "Standing Dumbbell Curl", "sets": "2", "reps": "8" },
+      { "exercise": "Lying Dumbbell Extension", "sets": "2", "reps": "8" }
+    ],
+    "dayTwo": [
+      { "exercise": "Dumbbell Lunge", "sets": "3", "reps": "10" },
+      {
+        "exercise": "Dumbbell Hamstring Curl",
+        "sets": "3",
+        "reps": "10"
+      },
+      { "exercise": "Dumbbell Deadlift", "sets": "3", "reps": "10" },
+      { "exercise": "Dumbbell Military Press", "sets": "3", "reps": "10" },
+      { "exercise": "Dumbbell Flys", "sets": "2", "reps": "8" },
+      { "exercise": "Hammer Curl", "sets": "2", "reps": "8" },
+      { "exercise": "Seated Dumbbell Extension", "sets": "2", "reps": "8" }
+    ],
+    "dayThree": [
+      { "exercise": "Dumbbell Step Up", "sets": "3", "reps": "10" },
+      {
+        "exercise": "Dumbbell Stiff Legged Deadlift",
+        "sets": "3",
+        "reps": "10"
+      },
+      { "exercise": "One Arm Dumbbell Row", "sets": "3", "reps": "10" },
+      { "exercise": "Reverse Grip Dumbbell Press", "sets": "3", "reps": "10" },
+      { "exercise": "Dumbbell Rear Delt Fly", "sets": "2", "reps": "8" },
+      { "exercise": "Seated Dumbbell Curl", "sets": "2", "reps": "8" },
+      { "exercise": "Close Grip Dumbbell Press", "sets": "2", "reps": "8" }
     ]
   },
   {
-    "title": "9 Week Bodyweight Workout For Strength & Muscle Gains",
-    "shortDescription": "Not only does this bodyweight routine enable you to gain muscle and lose fat, but also helps strengthen your core, improve your range of motion, and make your entire body stronger.",
-    "imageSrc": "https://cdn.muscleandstrength.com/sites/default/files/field/feature-wide-image/workout/fit-woman-doing-push-up-on-kettlebell-1000.jpg",
-    "workoutSummary": [
-      { "title": "Main Goal", "description": "General Fitness" },
-      { "title": "Workout Type", "description": "Full Body" },
-      { "title": "Training Level", "description": "Beginner" },
-      { "title": "Program Duration", "description": "9 weeks" },
-      { "title": "Days Per Week", "description": "3" },
-      { "title": "Time Per Workout", "description": "45-75 minutes" },
-      { "title": "Equipment Required", "description": "Bodyweight, Other" }
-    ],
-    "workoutDescription": "Bodyweight training is the fastest growing trend in fitness to date for good reason. The benefits greatly outweigh the drawbacks – because there really aren’t any. Adopting bodyweight training either as stand-alone workouts or as part of your existing program will not only spark new enthusiasm, but will also incorporate real-world bodyweight moves making you full-body strong.For example am I supposed to do 1 sets of 15 reps for push ups and then rest for 30-60 seconds and then do my second set of 15 push ups, and do that for every individual set of each exercise.Or do I do 1 set of 15 pushups, 1 set of 10 inverted rows, 1 set of 10 diamond pushups and then once I've done 1 set for every individual exercise take a 30-60 second rest and start from the top again. For a total of only three 30-60 second rest periods?",
-    "workoutOne": [{}, {}, {}, {}, {}, {}, {}]
-  },
-  {
-    "title": "18 Week Chin Up & Dip Program For An Impressive Upper Body",
-    "shortDescription": "",
-    "imageSrc": "https://cdn.muscleandstrength.com/sites/default/files/field/feature-image/workout/dipchin.jpg",
-    "workoutSummary": [
-      { "title": "Main Goal", "description": "Build Muscle" },
-      { "title": "Workout Type", "description": "Single Muscle Group" },
-      { "title": "Training Level", "description": "Beginner" },
-      { "title": "Program Duration", "description": "18 weeks" },
-      { "title": "Days Per Week", "description": "4" },
-      { "title": "Time Per Workout", "description": "75-90 minutes" },
-      { "title": "Equipment Required", "description": "Bodyweight, Other" }
-    ],
-    "workoutDescription": "What would you say if I told you that two moves could drastically change the way your upper body looks and feels?  What if I told you that those two moves have been around since the dawn of training and offer excellent results?You would probably think it sounds like the standard fitness sales pitch.  But, what I am about to tell you is definitely 100% true.  Chin ups and dips are the keys to building a complete upper body.There are definitely other \"factors\" in play when you see the extreme muscularity of some female bodybuilders or athletes.",
-    "workoutOne": [{}, {}, {}, {}, {}, {}, {}]
-  },
-  {
-    "title": "Total Body Beatdown: A German Volume Training Routine",
-    "shortDescription": "Whether you only have time to make it to the gym a few times during the week or you want to annihilate your entire body, we've got the workout for you!",
-    "imageSrc": "https://cdn.muscleandstrength.com/sites/default/files/field/feature-wide-image/workout/total-body-beatdown-wide.jpg",
+    "title": "3 Day Full Body Toning Workout",
+    "shortDescription": "This full body toning workout hits all the major muscle groups in just 30 minutes, and is perfect for people who want to strengthen their muscles! ",
+    "imageSrc": "https://cdn.muscleandstrength.com/sites/default/files/field/feature-wide-image/workout/3day1000.jpg",
     "workoutSummary": [
       { "title": "Main Goal", "description": "Build Muscle" },
       { "title": "Workout Type", "description": "Full Body" },
       { "title": "Training Level", "description": "Intermediate" },
-      { "title": "Program Duration", "description": "6 weeks" },
+      { "title": "Program Duration", "description": "4 weeks" },
       { "title": "Days Per Week", "description": "3" },
-      { "title": "Time Per Workout", "description": "60-90 minutes" },
+      { "title": "Time Per Workout", "description": "30 minutes" },
       {
         "title": "Equipment Required",
         "description": "Barbell, Bodyweight, Cables, Dumbbells, Machines"
       }
     ],
-    "workoutDescription": "Do you ever find yourself walking into the gym on a random day thinking “I just want to totally smash every muscle in my body today”?Maybe it’s after a long weekend spent indulging in some drinks and bad food or after an unintended absence from the gym.Or maybe you just happen to feel overly energetic and want to test the limits of your ambition.",
-    "workoutOne": [
-      { "exercise": "Back Squat", "sets": "10", "reps": "10" },
-      { "exercise": "Incline Barbell Bench Press", "sets": "10", "reps": "10" },
-      { "exercise": "T-Bar Row", "sets": "10", "reps": "10" },
-      {},
-      {},
-      {},
-      {}
+    "workoutDescription": "This 3 day workout is designed for people who want to tone and strengthen their muscles, without the bulk. Because of its versatile full body properties, you can incorporate this workout into an existing cardio or weight loss program.If you wish to incorporate cardio, these workouts can be completed on the same day as cardio or on separate days.",
+    "dayOne": [
+      { "exercise": "45 Degree Leg Press", "sets": "3", "reps": "20" },
+      { "exercise": "Seated Row", "sets": "3", "reps": "20" },
+      { "exercise": "Chest Dip", "sets": "2", "reps": "15-20" },
+      { "exercise": "Machine Shoulder Press", "sets": "2", "reps": "20" },
+      { "exercise": "Cable Curl", "sets": "2", "reps": "20" },
+      { "exercise": "Tricep Extension", "sets": "2", "reps": "20" },
+      { "exercise": "Plank", "sets": "3", "reps": "1 minute" }
+    ],
+    "dayTwo": [
+      { "exercise": "Smith Machine Squat", "sets": "3", "reps": "20" },
+      { "exercise": "Seated Calf Raise", "sets": "2", "reps": "25" },
+      { "exercise": "Lat Pull Down", "sets": "3", "reps": "20" },
+      { "exercise": "Dumbbell Flys", "sets": "3", "reps": "20" },
+      { "exercise": "Tricep Kickbacks", "sets": "2", "reps": "20" },
+      { "exercise": "Standing Dumbbell Curl", "sets": "2", "reps": "20" },
+      { "exercise": "Sit Ups", "sets": "2", "reps": "MAX" }
+    ],
+    "dayThree": [
+      { "exercise": "Dumbbell Lunge", "sets": "4", "reps": "10 each leg" },
+      { "exercise": "Wide Grip Pull Up", "sets": "3", "reps": "MAX" },
+      { "exercise": "Barbbell Bench Press", "sets": "3", "reps": "15-20" },
+      { "exercise": "Standing Barbbell Curl", "sets": "3", "reps": "15-20" },
+      { "exercise": "Tricep Bench Dip", "sets": "3", "reps": "15" },
+      { "exercise": "Horizontal Leg Raise", "sets": "2", "reps": "MAX" }
     ]
   },
   {
-    "title": "Backyard Bodyweight Workout For Women: Take It Out Back",
-    "shortDescription": "Escape the confines of your gym and hit the great outdoors for some sun-soaked exercise. This challenging bodyweight routine can be performed by adults and kids alike.",
-    "imageSrc": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/mini-subscribe-cta.png",
-    "workoutSummary": [
-      { "title": "Main Goal", "description": "General Fitness" },
-      { "title": "Workout Type", "description": "Full Body" },
-      { "title": "Training Level", "description": "Beginner" },
-      { "title": "Program Duration", "description": "8 weeks" },
-      { "title": "Days Per Week", "description": "3" },
-      { "title": "Time Per Workout", "description": "20-30 minutes" },
-      { "title": "Equipment Required", "description": "Bodyweight" }
-    ],
-    "workoutDescription": "Summer time calls for sunshine and fun! So why not take your workout outside with this great ‘30’ backyard workout. This full body women's workout works all major muscle groups. As you progress you can complete the circuit more times. Beginners start with 1-2 times.You can even get the kids involved!",
-    "workoutOne": [{}, {}, {}, {}, {}, {}, {}]
-  },
-  {
-    "title": "Coach Myers's Ultimate Bodyweight Challenge",
-    "shortDescription": "",
-    "imageSrc": "https://cdn.muscleandstrength.com/sites/default/files/field/feature-image/workout/coach-myers-body-weight-challenge-thumb.jpg",
-    "workoutSummary": [
-      { "title": "Main Goal", "description": "Increase Strength" },
-      { "title": "Workout Type", "description": "Single Muscle Group" },
-      { "title": "Training Level", "description": "Intermediate" },
-      { "title": "Program Duration", "description": "1 week" },
-      { "title": "Days Per Week", "description": "1" },
-      { "title": "Time Per Workout", "description": "30-45 minutes" },
-      { "title": "Equipment Required", "description": "Bodyweight" }
-    ],
-    "workoutDescription": "Bodyweight exercises have always been one of my favorite methods for training.Besides the coordination and core strength required to control your own body weight, bodyweight exercises are one of the best choices for high volume supersets to achieve an incredible pump.I have found no better all over upper body pump than when I superset pushing and pulling bodyweight movements together.",
-    "workoutOne": [{}, {}, {}, {}, {}, {}, {}]
-  },
-  {
-    "title": "Intense Lower Body Blast Circuit Workout",
-    "shortDescription": "",
-    "imageSrc": "https://cdn.muscleandstrength.com/sites/default/files/field/feature-image/workout/cir800.jpg",
-    "workoutSummary": [
-      { "title": "Main Goal", "description": "General Fitness" },
-      { "title": "Workout Type", "description": "Split" },
-      { "title": "Training Level", "description": "Beginner" },
-      { "title": "Program Duration", "description": "6 weeks" },
-      { "title": "Days Per Week", "description": "1" },
-      { "title": "Time Per Workout", "description": "30-45 minutes" },
-      { "title": "Equipment Required", "description": "Bodyweight" }
-    ],
-    "workoutDescription": "Blast your lower body into shape with this amazing circuit!Repeat 3-4x.",
-    "workoutOne": [{}, {}, {}, {}, {}, {}, {}]
-  },
-  {
-    "title": "3 \"No Excuses\" Hardcore Limited Equipment Workouts",
-    "shortDescription": "No gym access? No problem? Betancourt Nutrition's Alex Stewart presents 3 intense workout programs that will blast your body using minimal equipment and minimal time.",
-    "imageSrc": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/mini-subscribe-cta.png",
-    "workoutSummary": [
-      { "title": "Main Goal", "description": "Build Muscle" },
-      { "title": "Workout Type", "description": "Split" },
-      { "title": "Training Level", "description": "Beginner" },
-      { "title": "Days Per Week", "description": "5" },
-      { "title": "Equipment Required", "description": "5" },
-      { "title": "Target Gender" },
-      {
-        "title": "Recommended Supplements",
-        "description": "\nPure Amino, Pump'D, Big Blend, Omega 3 EFA Stack "
-      }
-    ],
-    "workoutDescription": "In my years of training and coaching clients I have heard it ALL when it comes to excuses. I've heard every story about how and why someone fell off the wagon and stopped working out. The one recurring and common excuse is the lack of time… Everyone knows the health benefits of exercise, but because of a busy schedule they can't seem to find the time to fit it in.I used to struggle with this. I would speak to clients and explain that all they needed was 30-60 minutes at the gym 4-5 times a week. This would give them the results they were looking for. How can this be so difficult? Aren’t your fitness goals important to you? Many would say yes, but then proceed to list the reason they were not able to get to the gym.I found that for many of these people, their busy schedules, family time, traveling and/or the distance they lived from a gym were the main reasons they didn’t work out. Getting back and forth from the gym cost them time and changing at the gym was a hassle. During the first half of the year, when they were most motivated, gyms were swamped.",
-    "workoutOne": [{}, {}, {}, {}, {}, {}, {}]
-  },
-  {
-    "title": "Take It To The Stairs Workout",
-    "shortDescription": "NutriForce sponsored athlete Sarah Kesseli wants you to get outside and get moving. Head to your nearest set of stairs for this intense, calorie blasting workout.",
-    "imageSrc": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/pdf_file_icon.png",
-    "workoutSummary": [
-      { "title": "Main Goal", "description": "General Fitness" },
-      { "title": "Workout Type", "description": "Split" },
-      { "title": "Training Level", "description": "Beginner" },
-      { "title": "Program Duration", "description": "6 weeks" },
-      { "title": "Days Per Week", "description": "1" },
-      { "title": "Time Per Workout", "description": "30-45 minutes" },
-      { "title": "Equipment Required", "description": "Bodyweight" }
-    ],
-    "workoutDescription": "Head to your nearest set of stairs (your house, stadium or Local Park) for this intense, calorie blasting workout!undefined",
-    "workoutOne": [{}, {}, {}, {}, {}, {}, {}]
-  },
-  {
-    "title": "King of Calisthenics Workout: Lean Muscle Without Equipment",
-    "shortDescription": "No gym? No problem. Grow without equipment. Brad Borland shows you how to use your own body weight to build lean muscle mass. Basic & intermediate workouts included.",
-    "imageSrc": "https://cdn.muscleandstrength.com/sites/default/files/field/feature-wide-image/workout/man-calisthenics-workout-outside-1000.jpg",
+    "title": "3 Day Full Body Beginner Kettlebell Workout",
+    "shortDescription": "Kettlebell training promotes functionality. Full body training is efficient. And pairing them both together is an excellent way to maximize your workouts!",
+    "imageSrc": "https://cdn.muscleandstrength.com/sites/default/files/field/feature-wide-image/workout/kettlebell-full-body-wide.jpg",
     "workoutSummary": [
       { "title": "Main Goal", "description": "Build Muscle" },
       { "title": "Workout Type", "description": "Full Body" },
       { "title": "Training Level", "description": "Beginner" },
-      { "title": "Program Duration", "description": "6 weeks" },
+      { "title": "Program Duration", "description": "4 weeks" },
       { "title": "Days Per Week", "description": "3" },
-      { "title": "Time Per Workout", "description": "30-45 minutes" },
-      { "title": "Equipment Required", "description": "Bodyweight" }
+      { "title": "Time Per Workout", "description": "20-45 minutes" },
+      { "title": "Equipment Required", "description": "Kettle Bells" }
     ],
-    "workoutDescription": "Brad Borland is a strength & conditioning specialist, cancer survivor and the founder of WorkoutLab.Bodyweight training is a fickle term. Some see it as a convenient and efficient way of getting into great shape without the need for a well-stocked gym. Others see it as a cop out when it comes to building real muscle – as specialized equipment is needed for any substantial muscle gain. Many lifters fail to include any bodyweight training into their programs in fear of wasting precious energy needed for the big lifts: bench presses, rows and squats.With virtually an endless amount of variations bodyweight training can build some appreciable muscle and also add a surprising twist to your current routine as well. So from here forward let us fear no more and embrace what this type of training can teach us!",
-    "workoutOne": [{}, {}, {}, {}, {}, {}, {}]
-  },
-  {
-    "title": "4 Day Upper/Lower Bodyweight Split Workout",
-    "shortDescription": "You don’t need a gym to get stronger, just a burning desire to improve. This versatile, no-nonsense upper/lower body workout will show you how to use household items for a serious workout. ",
-    "imageSrc": "https://cdn.muscleandstrength.com/sites/default/files/field/feature-wide-image/workout/img_1000x500_1_0.jpg",
-    "workoutSummary": [
-      { "title": "Main Goal", "description": "General Fitness" },
-      { "title": "Workout Type", "description": "Split" },
-      { "title": "Training Level", "description": "Beginner" },
-      { "title": "Days Per Week", "description": "4" },
-      { "title": "Time Per Workout", "description": "4" },
-      { "title": "Equipment Required" },
-      { "title": "Target Gender" }
+    "workoutDescription": "There’s two elements to this program that I know you’ll love.Firstly, it’s a full body workout.This means you can get more done in less training sessions per week. All while having very effective calorie burning training sessions. Secondly, you’ll be able to perform it anywhere because you only need one thing to do it. A kettlebell.",
+    "dayOne": [
+      { "exercise": "Kettlebell Squat", "sets": "3", "reps": "8" },
+      { "exercise": "Kettlebell Swing", "sets": "3", "reps": "8" },
+      { "exercise": "Kettlebell Row", "sets": "3", "reps": "8" },
+      { "exercise": "Kettlebell Row", "sets": "3", "reps": "8" },
+      { "exercise": "Turkish Get Up", "sets": "3", "reps": "6 Each" }
     ],
-    "workoutDescription": "I compete in Powerlifting, my fiancée knits — our levels of and outlooks on fitness couldn’t be further from one another. But, like millions of people around the globe, our lives have evolved over the course of the last month due to a pandemic and an order encouraging us to “stay at home.”After only a week of social distancing, I was greeted by a string of words I never dreamed of hearing: “Can you help me with a workout?” Although it was music to my ears, it also presented a challenge: it had to be simple enough to do at home, but demanding enough to catalyze results. And as if that wasn’t enough, she asked if I’d do them with her — I can’t go to the gym, after all. Now, these workouts had to be strenuous enough to make me sweat. Challenge accepted.I started with a few guiding principles: working with time instead of reps will increase intensity where we couldn’t use weights, and specifying rest time between sets would hold us accountable for keeping our heart-rates up. The duration of each exercise can be increased in increments of 10 seconds as the movements become easier, and the length of each rest should be decreased by increments of 5 seconds as you acclimate to the demands of each workout. The demands can continually become more challenging to match improvement.",
-    "workoutOne": [{}, {}, {}, {}, {}, {}, {}]
-  },
-  {
-    "title": "Dice And Cards Bodyweight And Conditioning Workout",
-    "shortDescription": "This kick butt bodyweight & conditioning workout is random and impossible to prepare for, Dice and a deck of cards are utilized to determine exercises and reps.",
-    "imageSrc": "https://cdn.muscleandstrength.com/sites/default/files/field/feature-wide-image/workout/1000x500.jpg",
-    "workoutSummary": [
-      { "title": "Main Goal", "description": "General Fitness" },
-      { "title": "Workout Type", "description": "Full Body" },
-      { "title": "Training Level", "description": "Beginner" },
-      { "title": "Days Per Week", "description": "3" },
-      { "title": "Equipment Required", "description": "3" },
-      { "title": "Target Gender" },
+    "dayTwo": [
+      { "exercise": "Kettlebell Romanian Deadlift", "sets": "3", "reps": "8" },
+      { "exercise": "Kettlebell Split Lunge", "sets": "3", "reps": "8 Each" },
+      { "exercise": "Kettlebell Snatch", "sets": "3", "reps": "6" },
+      { "exercise": "Kettlebell Row", "sets": "3", "reps": "8" },
       {
-        "title": "Recommended Supplements",
-        "description": "\nPre-Workout Energy Supp, Post-Workout Whey "
+        "exercise": "One Arm Kettlebell Floor Press",
+        "sets": "3",
+        "reps": "8 Each"
       }
     ],
-    "workoutDescription": "This is a fun and challenging bodyweight and conditioning workout that can be performed solo, or with a group. All you need is a six-sided dice and a deck of cards.Here's you the workout works:undefined",
-    "workoutOne": [{}, {}, {}, {}, {}, {}, {}]
+    "dayThree": [
+      { "exercise": "Kettlebell Sumo Deadlift", "sets": "3", "reps": "8" },
+      { "exercise": "Kettlebell Lateral Lunge", "sets": "3", "reps": "8 Each" },
+      { "exercise": "Kettlebell Clean", "sets": "3", "reps": "6" },
+      { "exercise": "Kettlebell Upright Row", "sets": "3", "reps": "8" },
+      { "exercise": "Kettlebell Angled Press", "sets": "3", "reps": "8" }
+    ]
   },
   {
-    "title": "8 Minute Squat & Push-Up Tabata Workout For Fat Loss",
-    "shortDescription": "You can burn fat and get ripped in just 8 minutes with this high intensity Tabata circuit that combines push-ups and squats.\n",
-    "imageSrc": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/mini-subscribe-cta.png",
+    "title": "3 Day (At Home) Women's Workout Routine",
+    "shortDescription": "Get in great workouts from the comfort of your own home with this 3 day full body at home workout program for women. Check it out and get started!",
+    "imageSrc": "https://cdn.muscleandstrength.com/sites/default/files/field/feature-wide-image/workout/at-home-workout-wide.jpg",
     "workoutSummary": [
       { "title": "Main Goal", "description": "Lose Fat" },
-      { "title": "Workout Type", "description": "Cardio" },
+      { "title": "Workout Type", "description": "Full Body" },
       { "title": "Training Level", "description": "Beginner" },
-      { "title": "Program Duration", "description": "6 weeks" },
+      { "title": "Program Duration", "description": "4 weeks" },
       { "title": "Days Per Week", "description": "3" },
-      { "title": "Time Per Workout", "description": "8 minutes" },
-      { "title": "Equipment Required", "description": "Bodyweight, Dumbbells" }
+      { "title": "Time Per Workout", "description": "30-45 minutes" },
+      {
+        "title": "Equipment Required",
+        "description": "Bands, Bodyweight, Dumbbells"
+      }
     ],
-    "workoutDescription": "Do you have 8 minutes to spare to train?How about getting awesome results in those 8 minutes?By now, Tabata may be a term you are familiar with. Traditionally performed within a 4 minute time span, this type of high intensity interval training (HIIT) has some rather unique characteristics.",
-    "workoutOne": [
-      { "exercise": "Squat", "sets": "20 seconds" },
-      { "sets": "10 seconds" },
-      { "exercise": "Push-Ups", "sets": "20 seconds" },
-      { "sets": "2 minutes" },
-      { "exercise": "push-ups" },
-      { "sets": "2-3 minutes" },
-      {}
+    "workoutDescription": "So, you want to start a workout routine? But, between work, fulfilling family obligations, and other requirements in life, you don’t have time or funds to go to the gym.We respect that and can empathize. The following workouts utilize bodyweight exercises, resistance bands, and dumbbells. All things that are fairly easy to store and can be used to get a complete and total body workout in the comforts of your own home.",
+    "dayOne": [
+      { "exercise": "Bodyweight Squat", "sets": "3", "reps": "10" },
+      { "exercise": "Rear Bodyweight Lunge", "sets": "3", "reps": "10" },
+      {
+        "exercise": "Single Leg Dumbbell Deadlift",
+        "sets": "3",
+        "reps": "6 Each"
+      },
+      { "exercise": "Push Up", "sets": "3", "reps": "6-10" },
+      {
+        "exercise": "Resistance Band Lat Pull Down",
+        "sets": "3",
+        "reps": "10"
+      },
+      { "exercise": "Dumbbell Row", "sets": "3", "reps": "10" },
+      { "exercise": "Plank", "sets": "3", "reps": "30 Secs" }
+    ],
+    "dayTwo": [
+      { "exercise": "Resistance Band Deadlift", "sets": "3", "reps": "10" },
+      { "exercise": "Dumbbell Goblet Squat", "sets": "3", "reps": "10" },
+      { "exercise": "Glute Bridge", "sets": "3", "reps": "12" },
+      { "exercise": "Donkey Kicks", "sets": "3", "reps": "12 Each" },
+      { "exercise": "Resistance Band Row", "sets": "3", "reps": "10" },
+      { "exercise": "Dumbbell Shoulder Press", "sets": "3", "reps": "8-10" },
+      { "exercise": "Ab Crunch", "sets": "3", "reps": "15" }
+    ],
+    "dayThree": [
+      { "exercise": "Push Up", "sets": "3", "reps": "6-10" },
+      { "exercise": "Dumbbell Lateral Raise", "sets": "3", "reps": "10" },
+      { "exercise": "Resistance Band Pull Down", "sets": "3", "reps": "10" },
+      { "exercise": "Dumbbell Row", "sets": "3", "reps": "10" },
+      { "exercise": "Bodyweight Squat", "sets": "3", "reps": "10" },
+      { "exercise": "Glute Bridge", "sets": "3", "reps": "15" },
+      { "exercise": "Side Plank", "sets": "3", "reps": "30 Secs Each" }
     ]
   },
   {
@@ -254,117 +204,14 @@
       { "title": "Equipment Required", "description": "Bodyweight" }
     ],
     "workoutDescription": "Go through each of these exercises 3 times, take minimal amounts of rest in between each exercise and then take 1-2 minutes in between each series of exercises.The key to this workout, like any other, is progression. You should push for more reps each time you do this workout. If you get 14 pushups in week 1, you should try for 15 pushups in week 2. As long as you keep progressing you will get bigger and stronger.undefined",
-    "workoutOne": [{}, {}, {}, {}, {}, {}, {}]
-  },
-  {
-    "title": "8 Week Muscle Building Bodyweight Workout",
-    "shortDescription": "Build muscle without a gym! This 8-week bodyweight workout routine will help you progress from basic to advanced bodyweight exercises.",
-    "imageSrc": "https://cdn.muscleandstrength.com/sites/default/files/field/feature-wide-image/workout/bodyweight-workout-wide.jpg",
-    "workoutSummary": [
-      { "title": "Main Goal", "description": "Build Muscle" },
-      { "title": "Workout Type", "description": "Full Body" },
-      { "title": "Training Level", "description": "Beginner" },
-      { "title": "Program Duration", "description": "8 weeks" },
-      { "title": "Days Per Week", "description": "3" },
-      { "title": "Time Per Workout", "description": "30-45 minutes" },
-      {
-        "title": "Equipment Required",
-        "description": "Bodyweight, Exercise Ball, Kettle Bells, Other"
-      }
-    ],
-    "workoutDescription": "Calisthenics, a form of working out the body with bodyweight alone, has a rich history in fitness.The word “calisthenics” is derived from two ancient greek words:Hope this helps!",
-    "workoutOne": [
-      { "exercise": "Push-ups", "sets": "3", "reps": "15" },
-      { "exercise": "Inverted Rows", "sets": "3", "reps": "10" },
-      {
-        "exercise": "Diamond (hands close) Push-ups",
-        "sets": "3",
-        "reps": "10"
-      },
-      { "exercise": "Squats ", "sets": "3", "reps": "15" },
-      { "exercise": "Single Leg Calf Raises", "sets": "3", "reps": "15" },
-      { "exercise": "Stationary Lunges", "sets": "3", "reps": "10" },
-      { "exercise": "Lying Leg Raises", "sets": "3", "reps": "10" }
+    "dayOne": [
+      { "exercise": "Jump Squat", "sets": "3", "reps": "10-15" },
+      { "exercise": "Push Up", "sets": "3", "reps": "15-20" },
+      { "exercise": "Resistance Band Pull Down", "sets": "3", "reps": "10-15" },
+      { "exercise": "Walking Lunge", "sets": "3", "reps": "10-15 Each Leg" },
+      { "exercise": "Dips", "sets": "3", "reps": "10-15" },
+      { "exercise": "Glute Bridge", "sets": "3", "reps": "10-15" },
+      { "exercise": "Plank", "sets": "3", "reps": "30 Sec" }
     ]
-  },
-  {
-    "title": "Tactical Tabata: 30 Day High Intensity Workout",
-    "shortDescription": "The Tactical Tabata 30 day workout program was designed by Army Master Fitness trainer, Marcus Wallace, to get you in military shape in just 30 mins a day.",
-    "imageSrc": "https://cdn.muscleandstrength.com/sites/default/files/field/feature-wide-image/workout/tactical-tabata-wide.jpg",
-    "workoutSummary": [
-      { "title": "Main Goal", "description": "Lose Fat" },
-      { "title": "Workout Type", "description": "Full Body" },
-      { "title": "Training Level", "description": "Beginner" },
-      { "title": "Program Duration", "description": "4 weeks" },
-      { "title": "Days Per Week", "description": "6" },
-      { "title": "Time Per Workout", "description": "30-45 minutes" },
-      { "title": "Equipment Required", "description": "Bodyweight" }
-    ],
-    "workoutDescription": "If you are into high intense interval training then you must have heard of the Tabata Training Protocol. These workouts are designed to get your heart rate up in a short period of time and train all the energy systems together.Tabata workouts will make you fit; you will be burning calories during and after your training. The main reason Tabata works so well is the work to rest cycle. You only have 10 seconds to rest after 20 seconds of work.Doing this training style will make you feel like there isn’t enough time to fully recover. This will work wonders in helping you build endurance and get in prime shape.",
-    "workoutOne": [
-      { "exercise": "Squats", "sets": "3", "reps": "20 Sec/10 Sec" },
-      { "sets": "-", "reps": "-" },
-      { "exercise": "Lunges", "sets": "-", "reps": "-" },
-      { "exercise": "Shoulder Tap Push Ups", "sets": "3", "reps": "-" },
-      { "exercise": "Jump Squats", "sets": "-", "reps": "-" },
-      { "sets": "2", "reps": "-" },
-      { "sets": "-", "reps": "-" }
-    ]
-  },
-  {
-    "title": "Countdown To Fitness: A Calisthenics And Bodyweight Workout",
-    "shortDescription": "A fun and fast fitness challenge, this workout features a combination of calisthenics and bodyweight exercises, and is a great way to burn fat and build conditioning.",
-    "imageSrc": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/mini-subscribe-cta.png",
-    "workoutSummary": [
-      { "title": "Main Goal", "description": "Increase Endurance" },
-      { "title": "Workout Type", "description": "Full Body" },
-      { "title": "Training Level", "description": "Beginner" },
-      { "title": "Program Duration", "description": "6 weeks" },
-      { "title": "Days Per Week", "description": "3" },
-      { "title": "Time Per Workout", "description": "15-30 minutes" },
-      { "title": "Equipment Required", "description": "Bodyweight" }
-    ],
-    "workoutDescription": "“Workout for a Cure” - Countdown to fitness, 100,90,80,70,60,50,40,30,20,10 workout.Recently I was honored to be asked to create and lead a workout for a great cause. Our local “Relay for Life” team had the novel idea to organize a workout to raise money for the fight against breast cancer.As we know almost everyone has been touched in some way be this disease.  Be it a sister, mother, friend or yourself the diagnosis can be devastating.",
-    "workoutOne": [{}, {}, {}, {}, {}, {}, {}]
-  },
-  {
-    "title": "Bodyweight Basics: 3 Day Bodyweight Workout Plan",
-    "shortDescription": "",
-    "imageSrc": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/mini-subscribe-cta.png",
-    "workoutSummary": [
-      { "title": "Main Goal", "description": "General Fitness" },
-      { "title": "Workout Type", "description": "Split" },
-      { "title": "Training Level", "description": "Beginner" },
-      { "title": "Program Duration", "description": "4 weeks" },
-      { "title": "Days Per Week", "description": "3" },
-      { "title": "Time Per Workout", "description": "15-30 minutes" },
-      { "title": "Equipment Required", "description": "Bodyweight" }
-    ],
-    "workoutDescription": "Whether you’re into bodybuilding, powerlifting, strongman, CrossFit, or play a sport, at the end of the day our goal is to improve our body.So it makes sense that we should be working to become a master of using our bodies, right? Right.This means you need to be incorporating bodyweight exercises into your program.",
-    "workoutOne": [
-      { "exercise": "Pullups", "sets": "3", "reps": "Failure" },
-      { "exercise": "Inverted Row", "sets": "3", "reps": "10-12" },
-      { "exercise": "Dips", "sets": "3", "reps": "Failure" },
-      { "exercise": "Feet Elevated Pushup", "sets": "3", "reps": "15" },
-      { "exercise": "Plank", "sets": "3", "reps": "Failure" },
-      {},
-      {}
-    ]
-  },
-  {
-    "title": "Build Muscle With This Bodyweight Workout Routine Circuit",
-    "shortDescription": "Can you build muscle using only bodyweight exercises? You can if the intensity is great enough. This routine will challenge you regardless of your fitness levels.",
-    "imageSrc": "https://cdn.muscleandstrength.com/sites/all/themes/mnsnew/images/mini-subscribe-cta.png",
-    "workoutSummary": [
-      { "title": "Main Goal", "description": "General Fitness" },
-      { "title": "Workout Type", "description": "Full Body" },
-      { "title": "Training Level", "description": "Beginner" },
-      { "title": "Days Per Week", "description": "3" },
-      { "title": "Equipment Required", "description": "3" },
-      { "title": "Target Gender" },
-      { "title": "Author" }
-    ],
-    "workoutDescription": "Can you build muscle using bodyweight exercises? Yes, if you make the workout challenging enough.I designed this routine to be a quality starting point. But it is just that: a starting point.Over time you will need to find ways to make it more difficult. There are plenty of bodyweight exercise variations listed on Muscle & Strength. Try them out, and evolve your training when this workout feels too easy.",
-    "workoutOne": [{}, {}, {}, {}, {}, {}, {}]
   }
 ]
